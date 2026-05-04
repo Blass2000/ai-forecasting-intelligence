@@ -1,7 +1,5 @@
-### Overview
-Sample output 
 
-# AI Forecast Intelligence Engine
+# WS Sample AI Forecast Intelligence Engine
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
@@ -11,19 +9,11 @@ Sample output
 ---
 
 ## Overview
-
 The **AI Forecast Intelligence Engine** is an enterprise-style analytics solution designed to evaluate sales pipeline data, identify forecast risk, and generate executive-ready insights using a combination of data analysis and AI-driven reasoning.
-
 This project simulates a real-world **Revenue Operations (RevOps)** workflow by transforming Salesforce or HubSpot-style pipeline data into actionable intelligence for sales leadership.
-
 It bridges the gap between **raw data → business insight → executive decision-making**
-
 ---
-
 ## Demo
-
-
-
 > Dashboard showing pipeline health, risk exposure, and AI-generated executive insights.
 <img width="1883" height="753" alt="image" src="https://github.com/user-attachments/assets/af97f1fa-b6d4-4c77-8c80-d26f78908ff5" />
 and details
@@ -39,18 +29,17 @@ Sales organizations often face:
 - Limited visibility into deal risk  
 - Manual and time-consuming reporting  
 - Lack of clear executive-level narratives  
-
 ---
 
 ## Solution
 
-This tool provides:
+This sample tool provides:
 
-- ✅ Automated pipeline analysis  
-- ✅ Forecast risk scoring  
-- ✅ Regional performance insights  
-- ✅ AI-generated executive summaries  
-- ✅ Interactive dashboard + API access  
+- Automated pipeline analysis  
+- Forecast risk scoring  
+- Regional performance insights  
+- AI-generated executive summaries  
+- Interactive dashboard + API access  
 
 ---
 
@@ -62,28 +51,23 @@ Each opportunity is evaluated using a scoring model based on:
 - Days to close  
 - Recency of activity  
 - Deal size  
-
 **Output:**
 - Low Risk  
 - Medium Risk  
 - High Risk  
-
 ---
-
 ### Pipeline Intelligence
 - Total open pipeline  
 - Weighted pipeline  
 - Stage distribution (Commit / Upside / Development)  
 - High-risk deal exposure  
 - Regional performance  
-
 ---
 
 ### AI Executive Insights
 Automatically generates leadership-ready summaries such as:
 
 > “Pipeline strength is concentrated in the West region, while Central shows elevated slippage risk due to stale late-stage opportunities.”
-
 ---
 
 ### Interactive Dashboard
@@ -92,7 +76,6 @@ Built with Streamlit, allowing users to:
 - View KPIs instantly  
 - Analyze high-risk deals  
 - Review AI-generated insights  
-
 ---
 
 ### API Integration (FastAPI)
