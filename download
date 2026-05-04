@@ -1,0 +1,121 @@
+opportunity_id,customer,region,rep,stage,amount,probability,weighted_amount,close_date,created_date,last_activity_date,deal_type,source_system,next_step
+OPP-10000,Summit Retail,Strategic,A. Carter,Strong Commit,329233,0.9,296309.7,2026-05-27,2026-03-19,2026-03-25,Project,Salesforce,Technical validation
+OPP-10001,Summit Retail,West,F. Singh,Upside,302716,0.65,196765.4,2026-08-17,2026-02-13,2026-04-13,Security,HubSpot,Customer procurement
+OPP-10002,Peachtree Systems,West,B. Lee,Closed Lost,15640,0.0,0.0,2026-07-05,2026-03-31,2026-04-28,MRR,HubSpot,Pricing review
+OPP-10003,MetroCare,West,A. Carter,Development,195326,0.25,48831.5,2026-04-09,2025-11-12,2026-04-03,Project,HubSpot,Awaiting PO
+OPP-10004,DeltaGov,Strategic,E. Morgan,Strong Commit,138794,0.9,124914.6,2026-04-09,2025-12-08,2026-04-08,Security,Salesforce,Legal review
+OPP-10005,Acme Health,South,B. Lee,Upside,199412,0.65,129617.8,2026-05-22,2026-01-23,2026-04-22,MRR,HubSpot,Technical validation
+OPP-10006,CivicCloud,Central,C. Robinson,Development,69446,0.25,17361.5,2026-08-03,2026-02-20,2026-04-25,Project,Salesforce,Awaiting PO
+OPP-10007,Acme Health,Strategic,E. Morgan,Closed Won,139966,1.0,139966.0,2026-08-15,2026-01-13,2026-04-07,Hardware,HubSpot,Customer procurement
+OPP-10008,BlueRiver Logistics,Strategic,A. Carter,Strong Commit,178521,0.9,160668.9,2026-08-08,2025-11-28,2026-03-22,MRR,HubSpot,Pricing review
+OPP-10009,CivicCloud,Central,E. Morgan,Strong Commit,57883,0.9,52094.7,2026-08-02,2026-03-09,2026-03-23,Project,Salesforce,Pricing review
+OPP-10010,Acme Health,Strategic,D. Fuller,Upside,77767,0.65,50548.55,2026-04-15,2026-03-11,2026-04-12,Project,Salesforce,Pricing review
+OPP-10011,MetroCare,West,B. Lee,Closed Won,153123,1.0,153123.0,2026-07-15,2026-02-14,2026-04-16,Project,HubSpot,Technical validation
+OPP-10012,Summit Retail,Central,E. Morgan,Development,405010,0.25,101252.5,2026-07-30,2025-11-06,2026-04-16,Project,Salesforce,Awaiting PO
+OPP-10013,NorthStar Dental,Central,E. Morgan,Upside,145031,0.65,94270.15,2026-08-01,2026-03-01,2026-03-21,Security,Salesforce,Technical validation
+OPP-10014,Acme Health,Central,C. Robinson,Development,286134,0.25,71533.5,2026-05-25,2026-01-31,2026-03-25,Hardware,Salesforce,Pricing review
+OPP-10015,Summit Retail,South,F. Singh,Upside,328778,0.65,213705.7,2026-08-09,2025-11-15,2026-05-01,Cloud Services,Salesforce,Customer procurement
+OPP-10016,Peachtree Systems,South,C. Robinson,Strong Commit,148590,0.9,133731.0,2026-04-28,2026-02-23,2026-04-06,Security,HubSpot,Legal review
+OPP-10017,NorthStar Dental,South,B. Lee,Development,290078,0.25,72519.5,2026-07-14,2025-12-10,2026-04-21,Cloud Services,Salesforce,Customer procurement
+OPP-10018,CivicCloud,East,A. Carter,Development,18289,0.25,4572.25,2026-04-16,2026-01-26,2026-03-27,Security,HubSpot,Technical validation
+OPP-10019,Acme Health,West,F. Singh,Development,205264,0.25,51316.0,2026-05-03,2026-01-03,2026-04-08,Cloud Services,HubSpot,Legal review
+OPP-10020,DeltaGov,East,F. Singh,Upside,413430,0.65,268729.5,2026-05-22,2026-02-05,2026-04-03,Hardware,Salesforce,Legal review
+OPP-10021,MetroCare,Strategic,A. Carter,Development,21946,0.25,5486.5,2026-07-17,2025-12-17,2026-03-28,Security,Salesforce,Technical validation
+OPP-10022,MetroCare,Central,D. Fuller,Development,22266,0.25,5566.5,2026-04-29,2026-03-05,2026-04-28,Security,Salesforce,Customer procurement
+OPP-10023,NorthStar Dental,Central,B. Lee,Upside,360254,0.65,234165.1,2026-05-18,2026-03-05,2026-04-01,Hardware,HubSpot,Legal review
+OPP-10024,DeltaGov,West,C. Robinson,Upside,52193,0.65,33925.45,2026-07-19,2026-04-09,2026-04-03,Project,Salesforce,Technical validation
+OPP-10025,Acme Health,West,C. Robinson,Development,417305,0.25,104326.25,2026-08-26,2026-01-08,2026-03-23,Hardware,Salesforce,Pricing review
+OPP-10026,NorthStar Dental,West,D. Fuller,Upside,199005,0.65,129353.25,2026-04-23,2026-03-21,2026-05-04,Security,HubSpot,Pricing review
+OPP-10027,CivicCloud,West,B. Lee,Development,409477,0.25,102369.25,2026-06-08,2026-02-13,2026-04-03,Cloud Services,HubSpot,Pricing review
+OPP-10028,Peachtree Systems,East,C. Robinson,Upside,227329,0.65,147763.85,2026-08-03,2025-12-27,2026-04-29,Project,HubSpot,Customer procurement
+OPP-10029,NorthStar Dental,Strategic,D. Fuller,Development,264304,0.25,66076.0,2026-04-11,2026-04-19,2026-05-04,Cloud Services,Salesforce,Pricing review
+OPP-10030,Summit Retail,Strategic,D. Fuller,Upside,439571,0.65,285721.15,2026-05-21,2025-12-26,2026-04-30,Hardware,HubSpot,Technical validation
+OPP-10031,Summit Retail,South,C. Robinson,Upside,24864,0.65,16161.6,2026-05-06,2026-03-21,2026-03-22,Cloud Services,Salesforce,Legal review
+OPP-10032,Summit Retail,East,D. Fuller,Closed Lost,117107,0.0,0.0,2026-08-07,2025-12-02,2026-03-26,MRR,Salesforce,Pricing review
+OPP-10033,DeltaGov,South,B. Lee,Development,415683,0.25,103920.75,2026-05-04,2025-12-01,2026-04-30,Security,HubSpot,Pricing review
+OPP-10034,MetroCare,West,B. Lee,Development,185737,0.25,46434.25,2026-07-14,2026-03-07,2026-05-02,MRR,HubSpot,Pricing review
+OPP-10035,CivicCloud,East,F. Singh,Upside,372394,0.65,242056.1,2026-06-30,2025-11-30,2026-04-11,Hardware,HubSpot,Awaiting PO
+OPP-10036,CivicCloud,Strategic,F. Singh,Development,179998,0.25,44999.5,2026-04-23,2026-01-28,2026-04-17,Security,Salesforce,Awaiting PO
+OPP-10037,Acme Health,West,E. Morgan,Development,41844,0.25,10461.0,2026-06-17,2026-02-07,2026-04-15,Project,HubSpot,Pricing review
+OPP-10038,BlueRiver Logistics,Strategic,D. Fuller,Development,55290,0.25,13822.5,2026-05-25,2026-04-21,2026-03-29,Security,HubSpot,Customer procurement
+OPP-10039,Peachtree Systems,East,E. Morgan,Strong Commit,58317,0.9,52485.3,2026-04-19,2025-11-10,2026-04-25,Cloud Services,Salesforce,Technical validation
+OPP-10040,BlueRiver Logistics,East,F. Singh,Development,276602,0.25,69150.5,2026-06-06,2026-02-03,2026-04-28,Security,HubSpot,Legal review
+OPP-10041,DeltaGov,East,F. Singh,Upside,165710,0.65,107711.5,2026-07-30,2026-01-15,2026-04-09,Project,HubSpot,Awaiting PO
+OPP-10042,Summit Retail,East,A. Carter,Development,333792,0.25,83448.0,2026-05-18,2026-04-11,2026-05-03,Hardware,Salesforce,Technical validation
+OPP-10043,Peachtree Systems,South,A. Carter,Upside,355224,0.65,230895.6,2026-06-29,2026-04-24,2026-04-22,Project,Salesforce,Pricing review
+OPP-10044,Acme Health,Strategic,F. Singh,Development,118083,0.25,29520.75,2026-07-07,2026-03-25,2026-04-21,Security,Salesforce,Legal review
+OPP-10045,Peachtree Systems,East,F. Singh,Development,196602,0.25,49150.5,2026-06-27,2025-12-21,2026-03-30,Cloud Services,HubSpot,Technical validation
+OPP-10046,Peachtree Systems,East,B. Lee,Upside,92065,0.65,59842.25,2026-04-29,2025-12-17,2026-04-30,MRR,Salesforce,Technical validation
+OPP-10047,MetroCare,Strategic,A. Carter,Development,299247,0.25,74811.75,2026-05-10,2025-11-09,2026-04-13,Hardware,Salesforce,Legal review
+OPP-10048,Acme Health,South,D. Fuller,Development,404302,0.25,101075.5,2026-06-14,2026-01-13,2026-03-30,Cloud Services,Salesforce,Customer procurement
+OPP-10049,Summit Retail,Central,A. Carter,Strong Commit,257536,0.9,231782.4,2026-06-28,2025-11-28,2026-03-24,Security,HubSpot,Technical validation
+OPP-10050,Acme Health,East,B. Lee,Strong Commit,132960,0.9,119664.0,2026-08-11,2025-12-08,2026-04-09,Hardware,HubSpot,Pricing review
+OPP-10051,CivicCloud,West,F. Singh,Strong Commit,108459,0.9,97613.1,2026-08-14,2025-12-04,2026-04-16,Security,Salesforce,Customer procurement
+OPP-10052,BlueRiver Logistics,East,B. Lee,Development,180337,0.25,45084.25,2026-07-20,2026-02-06,2026-05-02,Project,Salesforce,Legal review
+OPP-10053,Acme Health,East,B. Lee,Development,161736,0.25,40434.0,2026-08-08,2026-02-12,2026-04-15,Security,Salesforce,Legal review
+OPP-10054,CivicCloud,South,B. Lee,Development,113175,0.25,28293.75,2026-07-31,2026-04-03,2026-03-25,Project,Salesforce,Awaiting PO
+OPP-10055,CivicCloud,East,F. Singh,Closed Won,433971,1.0,433971.0,2026-07-31,2025-12-29,2026-03-26,Project,HubSpot,Customer procurement
+OPP-10056,NorthStar Dental,Strategic,A. Carter,Closed Lost,118768,0.0,0.0,2026-06-22,2025-11-23,2026-04-26,Cloud Services,Salesforce,Awaiting PO
+OPP-10057,BlueRiver Logistics,Strategic,A. Carter,Closed Lost,88940,0.0,0.0,2026-06-22,2026-04-17,2026-04-12,Hardware,Salesforce,Technical validation
+OPP-10058,Peachtree Systems,South,A. Carter,Development,433995,0.25,108498.75,2026-08-25,2026-03-24,2026-04-16,MRR,Salesforce,Customer procurement
+OPP-10059,MetroCare,East,E. Morgan,Closed Won,216969,1.0,216969.0,2026-08-17,2026-03-18,2026-04-17,Cloud Services,HubSpot,Legal review
+OPP-10060,DeltaGov,South,D. Fuller,Development,411724,0.25,102931.0,2026-08-13,2026-02-25,2026-03-25,Hardware,Salesforce,Pricing review
+OPP-10061,Acme Health,South,F. Singh,Development,68548,0.25,17137.0,2026-08-09,2025-12-31,2026-04-28,Cloud Services,HubSpot,Pricing review
+OPP-10062,NorthStar Dental,Central,B. Lee,Strong Commit,413245,0.9,371920.5,2026-04-07,2025-12-03,2026-04-28,Project,HubSpot,Technical validation
+OPP-10063,MetroCare,South,A. Carter,Development,185160,0.25,46290.0,2026-05-02,2025-12-28,2026-03-20,Hardware,HubSpot,Awaiting PO
+OPP-10064,CivicCloud,East,A. Carter,Upside,149683,0.65,97293.95,2026-06-26,2026-02-14,2026-03-29,Project,HubSpot,Customer procurement
+OPP-10065,BlueRiver Logistics,South,D. Fuller,Development,220614,0.25,55153.5,2026-04-30,2026-01-28,2026-03-23,Security,HubSpot,Pricing review
+OPP-10066,Summit Retail,East,D. Fuller,Development,76306,0.25,19076.5,2026-06-08,2025-12-22,2026-04-30,Hardware,HubSpot,Technical validation
+OPP-10067,Acme Health,West,B. Lee,Upside,340689,0.65,221447.85,2026-07-20,2026-01-31,2026-04-08,Cloud Services,HubSpot,Technical validation
+OPP-10068,Peachtree Systems,West,B. Lee,Development,127049,0.25,31762.25,2026-08-20,2026-03-12,2026-04-03,Project,HubSpot,Legal review
+OPP-10069,CivicCloud,Central,B. Lee,Development,226939,0.25,56734.75,2026-06-23,2025-12-26,2026-04-17,Security,Salesforce,Legal review
+OPP-10070,MetroCare,East,A. Carter,Strong Commit,299638,0.9,269674.2,2026-05-26,2026-04-07,2026-03-30,Cloud Services,HubSpot,Customer procurement
+OPP-10071,Summit Retail,South,E. Morgan,Upside,94718,0.65,61566.7,2026-05-12,2026-02-11,2026-05-02,Hardware,HubSpot,Customer procurement
+OPP-10072,DeltaGov,Strategic,F. Singh,Development,45293,0.25,11323.25,2026-04-08,2025-12-22,2026-04-15,Security,HubSpot,Customer procurement
+OPP-10073,MetroCare,East,E. Morgan,Closed Lost,353349,0.0,0.0,2026-06-15,2026-04-17,2026-04-22,MRR,Salesforce,Customer procurement
+OPP-10074,DeltaGov,Strategic,D. Fuller,Development,349479,0.25,87369.75,2026-04-17,2025-11-18,2026-04-03,Project,Salesforce,Technical validation
+OPP-10075,Summit Retail,East,B. Lee,Closed Won,393742,1.0,393742.0,2026-06-25,2026-04-18,2026-04-20,Project,Salesforce,Pricing review
+OPP-10076,BlueRiver Logistics,Central,C. Robinson,Upside,22016,0.65,14310.4,2026-08-12,2026-03-28,2026-05-02,Cloud Services,Salesforce,Pricing review
+OPP-10077,Acme Health,South,A. Carter,Closed Won,445475,1.0,445475.0,2026-04-08,2026-02-27,2026-05-01,Security,HubSpot,Technical validation
+OPP-10078,DeltaGov,Strategic,D. Fuller,Upside,281417,0.65,182921.05,2026-07-02,2025-11-14,2026-04-07,Hardware,HubSpot,Pricing review
+OPP-10079,NorthStar Dental,East,B. Lee,Upside,32812,0.65,21327.8,2026-06-18,2025-12-07,2026-04-18,Security,Salesforce,Customer procurement
+OPP-10080,BlueRiver Logistics,East,E. Morgan,Upside,194091,0.65,126159.15,2026-05-01,2026-01-18,2026-03-31,Security,Salesforce,Awaiting PO
+OPP-10081,BlueRiver Logistics,Central,A. Carter,Closed Won,443004,1.0,443004.0,2026-06-06,2025-12-02,2026-04-19,Hardware,HubSpot,Pricing review
+OPP-10082,CivicCloud,South,B. Lee,Upside,241761,0.65,157144.65,2026-04-29,2025-11-15,2026-04-30,MRR,HubSpot,Technical validation
+OPP-10083,MetroCare,Central,B. Lee,Closed Lost,385380,0.0,0.0,2026-08-01,2025-11-21,2026-04-29,Cloud Services,HubSpot,Awaiting PO
+OPP-10084,BlueRiver Logistics,South,F. Singh,Development,249876,0.25,62469.0,2026-07-01,2026-03-07,2026-04-07,MRR,HubSpot,Technical validation
+OPP-10085,BlueRiver Logistics,West,F. Singh,Closed Lost,75721,0.0,0.0,2026-07-22,2025-12-03,2026-04-16,Security,Salesforce,Awaiting PO
+OPP-10086,BlueRiver Logistics,West,D. Fuller,Development,108062,0.25,27015.5,2026-04-17,2026-03-26,2026-04-24,Security,HubSpot,Awaiting PO
+OPP-10087,NorthStar Dental,East,A. Carter,Development,415850,0.25,103962.5,2026-08-24,2026-02-20,2026-04-13,MRR,HubSpot,Awaiting PO
+OPP-10088,MetroCare,South,C. Robinson,Development,27490,0.25,6872.5,2026-05-25,2025-11-22,2026-03-27,MRR,Salesforce,Technical validation
+OPP-10089,Acme Health,East,E. Morgan,Upside,213068,0.65,138494.2,2026-06-18,2026-03-26,2026-04-27,Project,Salesforce,Awaiting PO
+OPP-10090,Summit Retail,West,F. Singh,Development,146612,0.25,36653.0,2026-05-19,2025-11-27,2026-04-22,Hardware,HubSpot,Legal review
+OPP-10091,NorthStar Dental,Central,D. Fuller,Upside,362985,0.65,235940.25,2026-04-27,2026-04-24,2026-03-29,Hardware,HubSpot,Technical validation
+OPP-10092,Summit Retail,South,D. Fuller,Strong Commit,134638,0.9,121174.2,2026-04-13,2026-02-28,2026-03-31,MRR,Salesforce,Technical validation
+OPP-10093,DeltaGov,East,F. Singh,Development,338417,0.25,84604.25,2026-05-09,2026-03-17,2026-04-22,Hardware,HubSpot,Awaiting PO
+OPP-10094,NorthStar Dental,East,D. Fuller,Strong Commit,349019,0.9,314117.1,2026-08-22,2025-12-28,2026-04-13,MRR,Salesforce,Awaiting PO
+OPP-10095,MetroCare,Strategic,B. Lee,Closed Lost,154520,0.0,0.0,2026-05-15,2026-04-14,2026-04-20,Cloud Services,HubSpot,Technical validation
+OPP-10096,Summit Retail,Central,A. Carter,Development,104520,0.25,26130.0,2026-08-09,2025-11-14,2026-03-31,MRR,HubSpot,Awaiting PO
+OPP-10097,MetroCare,South,F. Singh,Development,103205,0.25,25801.25,2026-06-17,2026-03-04,2026-04-21,Security,Salesforce,Legal review
+OPP-10098,MetroCare,West,F. Singh,Strong Commit,29291,0.9,26361.9,2026-04-04,2026-02-21,2026-04-27,Hardware,HubSpot,Technical validation
+OPP-10099,NorthStar Dental,Strategic,D. Fuller,Development,398083,0.25,99520.75,2026-06-04,2026-01-14,2026-04-09,Security,Salesforce,Pricing review
+OPP-10100,Acme Health,Strategic,B. Lee,Upside,364482,0.65,236913.3,2026-04-28,2026-02-15,2026-03-22,MRR,HubSpot,Pricing review
+OPP-10101,Peachtree Systems,East,B. Lee,Strong Commit,325288,0.9,292759.2,2026-05-29,2026-03-24,2026-04-12,MRR,Salesforce,Legal review
+OPP-10102,Summit Retail,South,F. Singh,Upside,215519,0.65,140087.35,2026-04-10,2026-02-02,2026-04-14,Security,Salesforce,Awaiting PO
+OPP-10103,Peachtree Systems,South,B. Lee,Strong Commit,175569,0.9,158012.1,2026-06-05,2026-04-04,2026-03-23,Hardware,Salesforce,Legal review
+OPP-10104,Summit Retail,East,D. Fuller,Closed Lost,85817,0.0,0.0,2026-04-21,2026-02-28,2026-04-23,Security,Salesforce,Technical validation
+OPP-10105,BlueRiver Logistics,East,E. Morgan,Upside,147864,0.65,96111.6,2026-08-14,2025-12-12,2026-04-06,MRR,Salesforce,Awaiting PO
+OPP-10106,DeltaGov,Strategic,D. Fuller,Closed Won,17804,1.0,17804.0,2026-05-13,2026-04-10,2026-04-15,Project,Salesforce,Customer procurement
+OPP-10107,MetroCare,Central,E. Morgan,Strong Commit,215395,0.9,193855.5,2026-04-11,2026-03-31,2026-04-03,MRR,Salesforce,Legal review
+OPP-10108,Acme Health,Central,B. Lee,Development,125405,0.25,31351.25,2026-04-09,2025-11-20,2026-04-25,Hardware,HubSpot,Customer procurement
+OPP-10109,CivicCloud,East,F. Singh,Development,84425,0.25,21106.25,2026-04-20,2026-03-24,2026-04-23,Cloud Services,Salesforce,Customer procurement
+OPP-10110,DeltaGov,Central,D. Fuller,Upside,80013,0.65,52008.45,2026-05-26,2025-11-17,2026-03-31,Project,HubSpot,Technical validation
+OPP-10111,Summit Retail,Central,F. Singh,Closed Lost,146865,0.0,0.0,2026-08-31,2026-01-28,2026-03-29,Hardware,HubSpot,Awaiting PO
+OPP-10112,Summit Retail,Central,A. Carter,Closed Lost,271885,0.0,0.0,2026-06-15,2025-12-17,2026-04-19,MRR,HubSpot,Pricing review
+OPP-10113,DeltaGov,West,E. Morgan,Strong Commit,149024,0.9,134121.6,2026-04-04,2026-02-15,2026-04-23,Project,Salesforce,Pricing review
+OPP-10114,Summit Retail,Strategic,D. Fuller,Upside,248329,0.65,161413.85,2026-06-12,2025-11-15,2026-04-17,Cloud Services,Salesforce,Customer procurement
+OPP-10115,Summit Retail,Central,D. Fuller,Upside,165037,0.65,107274.05,2026-04-25,2025-12-02,2026-04-03,Cloud Services,Salesforce,Awaiting PO
+OPP-10116,MetroCare,West,A. Carter,Strong Commit,26109,0.9,23498.1,2026-06-28,2026-03-15,2026-03-22,Cloud Services,Salesforce,Legal review
+OPP-10117,MetroCare,Strategic,B. Lee,Strong Commit,348302,0.9,313471.8,2026-06-21,2026-02-02,2026-04-23,Security,HubSpot,Awaiting PO
+OPP-10118,MetroCare,South,B. Lee,Development,249717,0.25,62429.25,2026-07-11,2025-12-10,2026-04-17,MRR,HubSpot,Awaiting PO
+OPP-10119,Summit Retail,West,D. Fuller,Development,288752,0.25,72188.0,2026-08-28,2025-11-20,2026-04-07,Project,HubSpot,Customer procurement

@@ -1,0 +1,43 @@
+from __future__ import annotations
+
+import json
+import os
+from typing import Any
+
+def local_executive_summary(metrics: dict[str, Any]) -> str:
+    s = metrics["summary"]
+    regions = metrics["region_summary"]
+    top_region = regions[0]["region"] if regions else "N/A"
+    return (
+        f"Current open pipeline is ${s['total_open_pipeline']:,.0f}, with "
+        f"${s['weighted_open_pipeline']:,.0f} weighted. Strong Commit represents "
+        f"${s['strong_commit']:,.0f}, while Upside contributes ${s['upside']:,.0f}. "
+        f"The strongest weighted region is {top_region}. High-risk exposure is "
+        f"${s['high_risk_value']:,.0f} across {s['high_risk_count']} deals. "
+        "Leadership should focus this week on stale activity, late close dates, "
+        "procurement blockers, and confirmation of large opportunities expected to close this period."
+    )
+
+def generate_ai_summary(metrics: dict[str, Any]) -> str:
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return local_executive_summary(metrics)
+    try:
+        from openai import OpenAI
+        client = OpenAI(api_key=api_key)
+        prompt = (
+            "You are an executive revenue operations analyst. Write a concise forecast narrative "
+            "for a VP of Sales. Focus on risk, regional performance, deal slippage, and actions. "
+            f"Metrics JSON: {json.dumps(metrics, default=str)}"
+        )
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "Write crisp executive business commentary."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.2,
+        )
+        return response.choices[0].message.content or local_executive_summary(metrics)
+    except Exception:
+        return local_executive_summary(metrics)

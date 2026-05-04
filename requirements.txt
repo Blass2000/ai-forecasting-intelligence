@@ -1,0 +1,18 @@
+import pandas as pd
+from app.forecast_model import enrich_pipeline, summarize_pipeline
+
+def test_enrich_pipeline_adds_risk_fields():
+    df = pd.read_csv("data/sample_sales_pipeline.csv")
+    for col in ["close_date", "created_date", "last_activity_date"]:
+        df[col] = pd.to_datetime(df[col], errors="coerce")
+    enriched = enrich_pipeline(df)
+    assert "risk_score" in enriched.columns
+    assert "risk_band" in enriched.columns
+
+def test_summarize_pipeline_returns_summary():
+    df = pd.read_csv("data/sample_sales_pipeline.csv")
+    for col in ["close_date", "created_date", "last_activity_date"]:
+        df[col] = pd.to_datetime(df[col], errors="coerce")
+    result = summarize_pipeline(df)
+    assert "summary" in result
+    assert "region_summary" in result
