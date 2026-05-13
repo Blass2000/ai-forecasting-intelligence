@@ -9,7 +9,7 @@
 ---
 
 ## Overview
-The **AI Forecast Intelligence Engine** is an enterprise-style analytics solution designed to evaluate sales pipeline data, identify forecast risk, and generate executive-ready insights using a combination of data analysis and AI-driven reasoning.
+The **AI Forecast Intelligence Engine** (cathcy name huh?) is an enterprise-style analytics solution designed to evaluate sales pipeline data, identify forecast risk, and generate executive-ready insights using a combination of data analysis and AI-driven reasoning.
 This project simulates a real-world **Revenue Operations (RevOps)** workflow by transforming Salesforce or HubSpot-style pipeline data into actionable intelligence for sales leadership.
 It bridges the gap between **raw data → business insight → executive decision-making**
 ---
@@ -23,24 +23,19 @@ and details
 
 ## Problem Statement
 
-Sales organizations often face:
+I have often seen that Sales organizations oface: - Inaccurate or inconsistent forecasts ,  Limited visibility into deal risk , - Manual and time-consuming reporting  and lacke of clear executive narritives.
 
-- Inaccurate or inconsistent forecasts  
-- Limited visibility into deal risk  
-- Manual and time-consuming reporting  
-- Lack of clear executive-level narratives  
 ---
 
 ## Solution
 
-This sample tool provides:
+This sample solution provides:
 
 - Automated pipeline analysis  
 - Forecast risk scoring  
 - Regional performance insights  
 - AI-generated executive summaries  
 - Interactive dashboard + API access  
-
 ---
 
 ## Core Features
@@ -86,3 +81,4 @@ Built with Streamlit, allowing users to:
 ---
 
 ## Architecture
+In the control folder, I have plaed the Python, Streamlit and shell code - have fun. 
