@@ -82,3 +82,50 @@ Built with Streamlit, allowing users to:
 
 ## Architecture
 In the control folder, I have plaed the Python, Streamlit and shell code - have fun. 
+## Architecture
+
+### System Components
+
+#### 1. **Data Pipeline**
+- **Input Layer**: Accepts CSV/JSON data from Salesforce or HubSpot exports
+- **Data Validation**: Schema validation and data quality checks
+- **Transformation Layer**: Normalizes deal stages, probability scoring, and date handling
+- **Storage**: In-memory processing with optional Parquet caching
+
+#### 2. **Risk Scoring Engine**
+- **Algorithm**: Multi-factor scoring model combining:
+  - `stage_maturity`: Probability adjustment based on pipeline stage
+  - `days_to_close`: Temporal urgency metric (lower is riskier near deadline)
+  - `activity_recency`: Days since last customer interaction (staleness factor)
+  - `deal_size`: Amount weighting for revenue impact
+- **Output Classes**: Low Risk (0.0-0.5), Medium Risk (0.5-0.8), High Risk (0.8-1.0)
+
+#### 3. **Frontend - Streamlit Dashboard**
+- **Pages**:
+  - **Overview**: KPI cards (Total Pipeline, Weighted Pipeline, Risk Distribution)
+  - **Deal Analysis**: Filterable table with risk flags, stage distribution
+  - **Regional Insights**: Heatmaps and performance metrics by region
+  - **AI Insights**: LLM-generated executive summaries
+- **Interactivity**: Real-time filtering by region, rep, deal status
+
+#### 4. **Backend - FastAPI Server**
+- **Endpoints**:
+  - `POST /analyze`: Accept pipeline data and return risk scores
+  - `GET /pipeline/summary`: Aggregate KPI metrics
+  - `GET /deals/{id}`: Individual deal risk assessment
+  - `GET /forecast`: Executive summary generation
+- **Performance**: Async request handling for large datasets
+
+#### 5. **AI/LLM Integration**
+- **Model**: OpenAI/Claude API for narrative generation
+- **Prompts**: Dynamic context construction from pipeline analytics
+- **Output**: Executive-ready summaries with regional analysis
+
+### Tech Stack
+- **Backend**: Python 3.11, FastAPI, Pandas, NumPy
+- **Frontend**: Streamlit
+- **Data Processing**: CSV/JSON parsing, Polars/Pandas DataFrames
+- **AI/LLM**: LangChain, OpenAI API
+- **Deployment**: Docker (optional), Python virtual environment
+
+
